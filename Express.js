@@ -4,6 +4,7 @@ require('./db-con/mongoose')
 
 const app = express()
 
+
 //secure for access of other domains.
 // app.use((req, res, next) => {
 //     var allowedOrigins = ['https://realquizly.web.app', 'http://localhost:3000' , "https://youthful-boyd-4eb098.netlify.app" ];
